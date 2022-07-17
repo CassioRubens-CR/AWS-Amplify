@@ -1,8 +1,30 @@
-# Getting Started with Create React App
+# Creating Web Application Using AWS Amplify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Criando um aplicativo web usando AWS Amplify
 
-## Available Scripts
+[AWS Amplify](https://aws.amazon.com/pt/amplify/) fornece um fluxo de trabalho CI/CD baseado em Git para criar, implantar e hospedar aplicações Web de página única ou sites estáticos com back-ends sem servidor. Ao conectar-se a um repositório Git, o Amplify determina automaticamente as configurações de compilação para a estrutura de trabalho do front-end e todos os recursos de back-end sem servidor configurados com a CLI do Amplify e implanta automaticamente atualizações a cada confirmação de código. ( [Fonte e instruções](https://aws.amazon.com/pt/getting-started/hands-on/build-react-app-amplify-graphql/module-one/) ).
+
+### Instalação da CLI do Amplift
+
+`CLI(Interface de Linhas de Comando)` do Amplify é um conjunto de ferramentas unificado para criar Serviços de Nuvem AWS para seu aplicativo seguindo um fluxo de trabalho simples e guiado, ou seja, permite criar, gerenciar e remover serviços da AWS diretamente do seu terminal. ( [Fonte e instruções](https://aws.amazon.com/pt/getting-started/hands-on/build-react-app-amplify-graphql/module-two/) ).
+
+`Bibliotecas do Amplify` – As bibliotecas do Amplify permitem interagir com os serviços da AWS de uma aplicação móvel ou Web.
+
+`Autenticação` – Em software, autenticação é o processo de verificação e gerenciamento da identidade de um usuário, usando um serviço de autenticação ou API. Usamos os componentes:
+
+- `withAuthenticator` - Esse componente estruturará todo o fluxo de autenticação do usuário, permitindo que eles se cadastrem, façam login, redefinam senhas e confirmem o login para a autenticação multifator (MFA).
+
+- `AmplifySignOut` - Que renderizará o botão Sign Out (Sair).
+
+
+
+
+
+
+
+
+`CLI` do Amplify 
+
 
 In the project directory, you can run:
 
@@ -68,3 +90,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+___
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- `JavaScript`
+- [ReactJS](https://reactjs.org)
+- [Git](https://git-scm.com)
+- [ASW Amplify](https://aws.amazon.com/pt/amplify/)
+
+
+- [Sass](https://sass-lang.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Testing Library](https://testing-library.com/)
+
+___
+
+### :black_nib: Cássio Rubens 🚀
+
+- [Portfólio](https://cassiorubens-cr.github.io/portfolio/)
+- [GitHub](https://github.com/CassioRubens-CR)
+- [Linkedin](https://www.linkedin.com/in/cássio-rubens)
