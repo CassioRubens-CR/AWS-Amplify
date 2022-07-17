@@ -3,12 +3,21 @@
   "serviceConfiguration": {
     "apiName": "awsamplify",
     "serviceName": "AppSync",
-    "gqlSchemaPath": "/home/cassio/Dropbox/Cassio/DEV/Projetos/AWS/aws-amplify/amplify/backend/api/awsamplify/schema.graphql",
+    "gqlSchemaPath": "/tmp/amplify-86c99dd3-5dbf-4a54-8199-af2029a25bf2/amplify/backend/api/awsamplify/schema.graphql",
     "defaultAuthType": {
       "mode": "API_KEY",
-      "expirationTime": 7,
-      "apiKeyExpirationDate": "2022-07-24T20:11:27.417Z",
-      "keyDescription": "demo"
-    }
+      "keyDescription": "api key description",
+      "expirationTime": 30
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      }
+    ]
   }
 }
