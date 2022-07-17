@@ -34,11 +34,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Git](https://git-scm.com)
 - [ASW Amplify](https://aws.amazon.com/pt/amplify/)
 
-
-- [Sass](https://sass-lang.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Testing Library](https://testing-library.com/)
-
 ___
 
 ### :black_nib: Cássio Rubens 🚀

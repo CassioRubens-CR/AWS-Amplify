@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "awsamplify",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/home/cassio/Dropbox/Cassio/DEV/Projetos/AWS/aws-amplify/amplify/backend/api/awsamplify/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7,
+      "apiKeyExpirationDate": "2022-07-24T20:11:27.417Z",
+      "keyDescription": "demo"
+    }
+  }
+}
